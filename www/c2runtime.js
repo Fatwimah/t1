@@ -16505,5 +16505,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Function.prototype.cnds.OnFunction,
 	cr.plugins_.Browser.prototype.acts.ExecJs,
 	cr.plugins_.Button.prototype.cnds.OnClicked,
-	cr.plugins_.Function.prototype.acts.CallFunction
+	cr.plugins_.Function.prototype.acts.CallFunction,
+	cr.system_object.prototype.cnds.OnLayoutStart
 ];};
